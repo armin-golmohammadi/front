@@ -90,6 +90,13 @@ body {
 /* END HEADER */
 
 /* HOME PAGE */
+h2 {
+  font-family: "Oxygen", sans-serif;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+}
+
 .container .jumbotron {
   box-shadow: 0 0 50px #3f0c1f;
   border: 2px solid #3f0c1f;
@@ -148,11 +155,9 @@ body {
   color: #000;
   font-weight: bold;
   overflow: scroll;
-  inline-size: auto; 
+  inline-size: auto;
 }
 /* END HOME PAGE */
-
-
 
 /********** Large devices only **********/
 @media (min-width: 1200px) {
